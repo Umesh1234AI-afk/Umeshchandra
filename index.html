@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umesh Chandra | Data Scientist Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for Inter font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0d1117; /* Dark background */
+            color: #c9d1d9; /* Light text */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-[#0d1117]/90 backdrop-blur border-b border-[#21262d]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-[#58a6ff]">Umesh Chandra</h1>
+            <nav class="space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-[#58a6ff] transition">About</a>
+                <a href="#skills" class="hover:text-[#58a6ff] transition">Skills</a>
+                <a href="#projects" class="hover:text-[#58a6ff] transition">Projects</a>
+                <a href="#contact" class="hover:text-[#58a6ff] transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- 1. Hero / Introduction Section -->
+        <section id="about" class="py-20 lg:py-24 flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:space-x-12">
+            <div class="lg:w-2/3">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+                    Data Scientist & <span class="text-[#58a6ff] block">Machine Learning Specialist</span>
+                </h2>
+                <p class="text-lg text-[#8b949e] mb-6 max-w-xl">
+                    I am a **passionate and results-driven Data Scientist** with a solid foundation in statistical modeling, machine learning, and data visualization. I leverage Python and cloud technologies to transform complex datasets into actionable business insights and drive measurable impact.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#projects" class="px-6 py-3 bg-[#58a6ff] text-gray-900 font-semibold rounded-lg shadow-lg hover:bg-opacity-80 transition duration-300">View Projects</a>
+                    <a href="your_resume.pdf" target="_blank" class="px-6 py-3 border border-[#58a6ff] text-[#58a6ff] font-semibold rounded-lg hover:bg-[#58a6ff]/20 transition duration-300">Download CV</a>
+                </div>
+            </div>
+            <div class="lg:w-1/3 flex justify-center">
+                <!-- Profile Photo - Updated with your uploaded image -->
+                <img 
+                    src="uploaded:UmeshChandra - Copy.jpg-1582fc63-5d77-4ee2-bbaa-f04525d77b83" 
+                    alt="Umesh Chandra Professional Photo"
+                    class="w-64 h-64 object-cover rounded-full border-4 border-[#58a6ff] shadow-2xl"
+                    onerror="this.onerror=null; this.src='https://placehold.co/256x256/21262d/8b949e?text=Umesh+Chandra';"
+                >
+            </div>
+        </section>
+
+        <!-- Separator Line -->
+        <div class="border-t border-[#21262d] my-10"></div>
+
+        <!-- 2. Skills Section -->
+        <section id="skills" class="py-16">
+            <h3 class="text-3xl font-bold mb-8 text-center">Technical Expertise</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                
+                <!-- Skill Card 1: Programming -->
+                <div class="p-6 bg-[#161b22] rounded-xl shadow-xl hover:shadow-2xl hover:border-[#58a6ff] border border-transparent transition duration-300">
+                    <svg class="w-10 h-10 mx-auto mb-3 text-[#58a6ff]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path></svg>
+                    <h4 class="text-xl font-semibold mb-2">Programming</h4>
+                    <p class="text-sm text-[#8b949e]">Python (Pandas, NumPy, Scikit-learn), R, SQL, Bash.</p>
+                </div>
+
+                <!-- Skill Card 2: ML/Modeling -->
+                <div class="p-6 bg-[#161b22] rounded-xl shadow-xl hover:shadow-2xl hover:border-[#58a6ff] border border-transparent transition duration-300">
+                    <svg class="w-10 h-10 mx-auto mb-3 text-[#3fb950]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v14c-1.42 1-3.4 1-5 1H9z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 19l4-3"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19V6l-3-1v13c1.42 1 3.4 1 5 1z"></path></svg>
+                    <h4 class="text-xl font-semibold mb-2">ML & Stats</h4>
+                    <p class="text-sm text-[#8b949e]">Regression, Classification, Clustering, Time Series, A/B Testing, NLP, Deep Learning (PyTorch/TensorFlow).</p>
+                </div>
+
+                <!-- Skill Card 3: Data & Cloud -->
+                <div class="p-6 bg-[#161b22] rounded-xl shadow-xl hover:shadow-2xl hover:border-[#58a6ff] border border-transparent transition duration-300">
+                    <svg class="w-10 h-10 mx-auto mb-3 text-[#ffc107]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10m-4-10h4m-4 0l7-5M4 7h16M4 17h16M12 10v4M7 7h10"></path></svg>
+                    <h4 class="text-xl font-semibold mb-2">Data & Cloud</h4>
+                    <p class="text-sm text-[#8b949e]">PostgreSQL, MongoDB, ETL, AWS (S3, EC2), Docker, Git/GitHub.</p>
+                </div>
+
+                <!-- Skill Card 4: Visualization -->
+                <div class="p-6 bg-[#161b22] rounded-xl shadow-xl hover:shadow-2xl hover:border-[#58a6ff] border border-transparent transition duration-300">
+                    <svg class="w-10 h-10 mx-auto mb-3 text-[#f0881c]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <h4 class="text-xl font-semibold mb-2">Visualization</h4>
+                    <p class="text-sm text-[#8b949e]">Matplotlib, Seaborn, Plotly, Tableau, Dashboarding.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Separator Line -->
+        <div class="border-t border-[#21262d] my-10"></div>
+
+        <!-- 3. Projects Section -->
+        <section id="projects" class="py-16">
+            <h3 class="text-3xl font-bold mb-10 text-center">Featured Data Science Projects</h3>
+            <div class="space-y-12">
+
+                <!-- Project Card 1: Machine Learning -->
+                <div class="p-6 md:p-8 bg-[#161b22] rounded-xl shadow-2xl border border-[#21262d] hover:border-[#58a6ff] transition duration-500 flex flex-col lg:flex-row items-start lg:space-x-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-2xl font-bold text-[#58a6ff] mb-2">1. Predictive Customer Churn Model</h4>
+                        <p class="text-[#8b949e] mb-4">
+                            Developed a highly accurate classification model (XGBoost) to predict customer churn for a telecom company. Engineered features from transactional and demographic data, achieving an AUC score of 0.89. The model provides insights into key factors driving churn, enabling targeted retention strategies.
+                        </p>
+                        <p class="text-sm font-semibold mb-4 text-white">
+                            Tools: Python, Pandas, Scikit-learn, XGBoost, Matplotlib, AWS S3.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/Umesh1234AI/project-churn" target="_blank" class="text-[#58a6ff] hover:underline flex items-center">
+                                <!-- GitHub Icon -->
+                                <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.824 8.207 11.385.6.115.823-.255.823-.574 0-.283-.01-1.037-.015-2.032-3.338.724-4.042-1.61-4.042-1.61-.542-1.366-1.328-1.733-1.328-1.733-1.082-.742.082-.727.082-.727 1.2.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.493.998.108-.77.419-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.31.467-2.381 1.236-3.221-.124-.305-.536-1.521.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.3-1.23 3.3-1.23.653 1.655.241 2.871.118 3.176.77.84 1.235 1.911 1.235 3.
+                            </a>
+                            <a href="#" class="text-[#58a6ff] hover:underline flex items-center">
+                                <!-- Demo Icon Placeholder (Using a simple link icon) -->
+                                <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                Live Demo (Notebook)
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:w-1/3 bg-[#21262d] p-4 rounded-lg text-center">
+                        <p class="text-sm font-medium text-[#8b949e]">Key Takeaway</p>
+                        <p class="text-4xl font-extrabold text-[#3fb950]">89%</p>
+                        <p class="text-xs text-[#8b949e]">AUC Score for Churn Prediction</p>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: NLP/Deep Learning -->
+                <div class="p-6 md:p-8 bg-[#161b22] rounded-xl shadow-2xl border border-[#21262d] hover:border-[#58a6ff] transition duration-500 flex flex-col lg:flex-row-reverse items-start lg:space-x-reverse lg:space-x-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-2xl font-bold text-[#58a6ff] mb-2">2. Social Media Sentiment Analysis Engine</h4>
+                        <p class="text-[#8b949e] mb-4">
+                            Built an end-to-end NLP pipeline using BERT and TensorFlow to classify millions of social media comments into positive, negative, and neutral sentiments regarding a major brand. Deployed the model as a scalable API. This project included data scraping, cleaning, tokenization, and fine-tuning the deep learning model.
+                        </p>
+                        <p class="text-sm font-semibold mb-4 text-white">
+                            Tools: Python, TensorFlow, BERT, Hugging Face, Flask, Docker.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/Umesh1234AI/project-nlp" target="_blank" class="text-[#58a6ff] hover:underline flex items-center">
+                                <!-- GitHub Icon -->
+                                <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.824 8.207 11.385.6.115.823-.255.823-.574 0-.283-.01-1.037-.015-2.032-3.338.724-4.042-1.61-4.042-1.61-.542-1.366-1.328-1.733-1.328-1.733-1.082-.742.082-.727.082-.727 1.2.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.493.998.108-.77.419-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.31.467-2.381 1.236-3.221-.124-.305-.536-1.521.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.3-1.23 3.3-1.23.653 1.655.241 2.871.118 3.176.77.84 1.235 1.911 1.235 3.
+                            </a>
+                            <a href="#" class="text-[#58a6ff] hover:underline flex items-center">
+                                <!-- Demo Icon Placeholder -->
+                                <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                API Documentation
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:w-1/3 bg-[#21262d] p-4 rounded-lg text-center">
+                        <p class="text-sm font-medium text-[#8b949e]">Model Used</p>
+                        <p class="text-4xl font-extrabold text-[#ffc107]">BERT</p>
+                        <p class="text-xs text-[#8b949e]">Deep Learning Architecture</p>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Data Visualization/Engineering -->
+                <div class="p-6 md:p-8 bg-[#161b22] rounded-xl shadow-2xl border border-[#21262d] hover:border-[#58a6ff] transition duration-500 flex flex-col lg:flex-row items-start lg:space-x-8">
+                    <div class="lg:w-2/3">
+                        <h4 class="text-2xl font-bold text-[#58a6ff] mb-2">3. Interactive Sales Performance Dashboard</h4>
+                        <p class="text-[#8b949e] mb-4">
+                            Designed and deployed an interactive dashboard using Plotly Dash to monitor real-time sales performance metrics. Implemented robust ETL pipelines to clean and aggregate data from multiple SQL sources daily, providing key stakeholders with a single source of truth for decision-making.
+                        </p>
+                        <p class="text-sm font-semibold mb-4 text-white">
+                            Tools: Python, Dash/Plotly, PostgreSQL, Pandas, Docker.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://github.com/Umesh1234AI/project-dashboard" target="_blank" class="text-[#58a6ff] hover:underline flex items-center">
+                                <!-- GitHub Icon -->
+                                <svg class="w-5 h-5 mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.824 8.207 11.385.6.115.823-.255.823-.574 0-.283-.01-1.037-.015-2.032-3.338.724-4.042-1.61-4.042-1.61-.542-1.366-1.328-1.733-1.328-1.733-1.082-.742.082-.727.082-.727 1.2.084 1.839 1.237 1.839 1.237 1.07 1.835 2.809 1.305 3.493.998.108-.77.419-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.31.467-2.381 1.236-3.221-.124-.305-.536-1.521.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.292-1.552 3.3-1.23 3.3-1.23.653 1.655.241 2.871.118 3.176.77.84 1.235 1.911 1.235 3.
+                            </a>
+                            <a href="#" class="text-[#58a6ff] hover:underline flex items-center">
+                                <!-- Demo Icon Placeholder -->
+                                <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                                View Dashboard
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-4 lg:mt-0 lg:w-1/3 bg-[#21262d] p-4 rounded-lg text-center">
+                        <p class="text-sm font-medium text-[#8b949e]">Pipeline</p>
+                        <p class="text-4xl font-extrabold text-[#f0881c]">ETL</p>
+                        <p class="text-xs text-[#8b949e]">Daily Automated Data Processing</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Separator Line -->
+        <div class="border-t border-[#21262d] my-10"></div>
+
+        <!-- 4. Contact Section -->
+        <section id="contact" class="py-16 text-center">
+            <h3 class="text-3xl font-bold mb-4">Get In Touch</h3>
+            <p class="text-lg text-[#8b949e] mb-8 max-w-2xl mx-auto">
+                I am actively seeking new opportunities and challenges in the field of Data Science and Machine Learning. Feel free to reach out to discuss potential collaborations or job roles.
+            </p>
+            
+            <a href="mailto:chandraumesh796@gmail.com" class="inline-block px-8 py-4 bg-[#58a6ff] text-gray-900 font-bold rounded-lg shadow-xl hover:bg-opacity-80 transition duration-300 transform hover:scale-105">
+                Email Me: chandraumesh796@gmail.com
+            </a>
+
+            <!-- Contact Details List -->
+            <div class="mt-12 flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-12">
+                <div class="text-left">
+                    <p class="font-bold text-white mb-2">Email</p>
+                    <p class="text-[#8b949e]"><a href="mailto:chandraumesh796@gmail.com" class="hover:text-[#58a6ff]">chandraumesh796@gmail.com</a></p>
+                </div>
+                <div class="text-left">
+                    <p class="font-bold text-white mb-2">Phone</p>
+                    <p class="text-[#8b949e]">+91 6397574528</p>
+                </div>
+                <div class="text-left">
+                    <p class="font-bold text-white mb-2">Location</p>
+                    <p class="text-[#8b949e]">Meerut, India</p>
+                </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="mt-10 flex justify-center space-x-6">
+                <!-- GitHub Icon -->
+                <a href="https://github.com/Umesh1234AI" target="_blank" class="text-white hover:text-[#58a6ff] transition">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.865 8.165 6.839 9.47.5.092.682-.218.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.156-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.903.829.091-.643.351-1.083.636-1.334-2.22-.251-4.555-1.116-4.555-4.949 0-1.092.39-1.983 1.029-2.675-.103-.251-.446-1.266.098-2.636 0 0 .84-.27 2.75 1.025.798-.222 1.634-.333 2.479-.337.844.004 1.68.115 2.478.337 1.91-1.295 2.749-1.025 2.749-1.025.546 1.37.202 2.385.099 2.636.64.692 1.028 1.583 1.028 2.675 0 3.842-2.336 4.69-4.566 4.943.359.309.678.92.678 1.855 0 1.334-.012 2.41-.012 2.727 0 .267.18.577.688.479C21.139 20.163 24 16.416 24 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                </a>
+                
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/umesh-chandra-" target="_blank" class="text-white hover:text-[#58a6ff] transition">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.529-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+
+                <!-- Twitter Icon -->
+                <a href="https://twitter.com/yourhandle" target="_blank" class="text-white hover:text-[#58a6ff] transition">
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.14l-6.26-8.52L5.8 21.75H2.5L10.323 9.47 2.05 2.25h3.38l5.249 7.426L18.244 2.25zM17.845 19.34L3.633 4.65H5.8L20.26 19.34h-2.415z"/></svg>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 py-6 border-t border-[#21262d] text-center text-sm text-[#8b949e]">
+        <p>&copy; 2025 Umesh Chandra | Data Science Portfolio. Built with Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
